@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment03</string>
+    <string name="title">Discount Calculator</string>
+    <string name="text_box_hint">Enter List Price</string>
+    <string name="label_for_entry_box">Item Price:</string>
+    <string name="label_for_sale_group">Sale %</string>
+    <string name="ten_percent">10%</string>
+    <string name="fifteen_percent">15%</string>
+    <string name="eighteen_percent">18%</string>
+    <string name="custom_percent">Custom</string>
+    <string name="label_for_custom_percent">Custom %</string>
+    <string name="label_for_discount">Discount:</string>
+    <string name="label_for_final_price">Final Price:</string>
+    <string name="label_for_reset">Reset</string>
+    <string name="label_for_calculate">Calculate</string>
+    <string name="empty"></string>
+</resources>

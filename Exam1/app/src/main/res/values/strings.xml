@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Exam1</string>
+    <string name="title">BAC Calculator</string>
+    <string name="weight_label">Weight (lbs):</string>
+    <string name="weight_entry_hint">Enter weight</string>
+    <string name="gender_label">Gender:</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="beer_info">Beer\n12.0 oz (5%)</string>
+    <string name="zero">0</string>
+    <string name="wine_info">Wine\n5.0 oz (12%)</string>
+    <string name="liquor_info">Liquor Drinks\n1.5 oz (40%)</string>
+    <string name="malt_info">Malt Liquor\n9.0 oz (7%)</string>
+    <string name="BAC_level">Your BAC Level:</string>
+    <string name="safe">You\'re Safe</string>
+    <string name="careful">Be Careful!</string>
+    <string name="over">Over the Limit!!</string>
+    <string name="reset">RESET</string>
+    <string name="calculate">CALCULATE</string>
+
+</resources>

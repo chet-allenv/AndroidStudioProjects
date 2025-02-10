@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment02</string>
+    <string name="title">Color Selection</string>
+    <string name="hex">Color HEX:</string>
+    <string name="rgb">Color RGB:</string>
+    <string name="red_text">Red:</string>
+    <string name="green_text">Green:</string>
+    <string name="blue_text">Blue:</string>
+    <string name="white_button">White</string>
+    <string name="black_button">Black</string>
+    <string name="blue_button">Blue</string>
+    <string name="reset_button">Reset</string>
+    <string name="empty"></string>
+</resources>
