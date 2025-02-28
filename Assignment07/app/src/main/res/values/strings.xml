@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Assignment07</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_genre">Genres</string>
+    <string name="title_books">Books</string>
+    <string name="subtitle_placeholder">SUBTITLE</string>
+    <string name="button_back">BACK</string>
+    <string name="placeholder_book_title">Book Title</string>
+    <string name="placeholder_author">Author</string>
+    <string name="placeholder_genre">Genre</string>
+    <string name="placeholder_year">Year</string>
+    <string name="label_title">Title:</string>
+    <string name="label_author">Author:</string>
+    <string name="label_genre">Genre:</string>
+    <string name="label_year">Year:</string>
+    <string name="placeholder">PLACEHOLDER</string>
+    <string name="title_book_details">Book Details</string>
+
+</resources>
