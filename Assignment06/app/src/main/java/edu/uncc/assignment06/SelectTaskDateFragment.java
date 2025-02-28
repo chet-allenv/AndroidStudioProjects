@@ -94,7 +94,7 @@ public class SelectTaskDateFragment extends Fragment {
         Calendar cal = Calendar.getInstance();
         long date = cal.getTime().getTime();
 
-        binding.calendarView.setMinDate(date);
+        binding.calendarView.setMaxDate(date);
         binding.calendarView.setDate(date);
 
         if (!(task.getDate().equalsIgnoreCase("n/a")))
