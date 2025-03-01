@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">assessment02</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calorie_calc_title">Calorie Calculator</string>
+    <string name="label_gender">Gender:</string>
+    <string name="label_weight">Weight (lbs):</string>
+    <string name="label_height">Height:</string>
+    <string name="label_age">Age:</string>
+    <string name="label_activity_level">Activity Level:</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_select">Select</string>
+    <string name="select_gender_title">Select Gender</string>
+    <string name="select_weight_title">Select Weight</string>
+    <string name="select_height_title">Select Height</string>
+    <string name="select_age_title">Select Age</string>
+    <string name="select_activity_level_title">Select Activity Level</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="weight_input_help">Enter Weight</string>
+    <string name="height_input_feet_help">Enter Height ft</string>
+    <string name="height_input_inches_help">Enter Height in</string>
+    <string name="enter_age_help">Enter Age</string>
+    <string name="sedentary">Sedentary</string>
+    <string name="lightly_active">Lightly Active</string>
+    <string name="moderately_active">Moderately Active</string>
+    <string name="very_active">Very Active</string>
+    <string name="super_active">Super Active</string>
+    <string name="button_back">Back</string>
+    <string name="calorie_detail_title">Calorie Details</string>
+    <string name="total_energy_expenditure">Total Energy Expenditure</string>
+    <string name="BMR_label">BMR (At rest):</string>
+    <string name="TDEE_label">Activity Level (TDEE):</string>"
+
+</resources>
