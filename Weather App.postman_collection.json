@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "8eb2f5f0-4c5e-4564-ac7b-684ceb9c2dad",
+		"name": "Weather App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2842848"
+	},
+	"item": [
+		{
+			"name": "https://www.theappsdr.com/api/cities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.theappsdr.com/api/cities",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"cities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.weather.gov/points/{latitude},{longitude}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.weather.gov/points/35.2033219,-81.0049789",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weather",
+						"gov"
+					],
+					"path": [
+						"points",
+						"35.2033219,-81.0049789"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forecast - forecast for 12h periods over the next seven days",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.weather.gov/gridpoints/GSP/113,63/forecast",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weather",
+						"gov"
+					],
+					"path": [
+						"gridpoints",
+						"GSP",
+						"113,63",
+						"forecast"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
