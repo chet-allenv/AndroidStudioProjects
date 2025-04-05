@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Assignment10</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cities_title">Cities</string>
+    <string name="temperature_placeholder">temperature</string>
+    <string name="precipitation_placeholder">Precipitation %</string>
+    <string name="starttime_placeholder">StartTime</string>
+    <string name="windspeed_mph_placeholder">WindSpeed mph</string>
+    <string name="shortforecast_placeholder">shortForecast</string>
+    <string name="cityname_placeholder">CityName</string>
+    <string name="forecast_subtitle">Forecast</string>
 </resources>
