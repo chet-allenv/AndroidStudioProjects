@@ -8,6 +8,7 @@ material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
 okhttp = "5.0.0-alpha.14"
+picasso = "2.71828"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -18,6 +19,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

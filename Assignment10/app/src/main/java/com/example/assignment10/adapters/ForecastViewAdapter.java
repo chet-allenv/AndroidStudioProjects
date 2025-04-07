@@ -19,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.assignment10.R;
 import com.example.assignment10.models.Forecast;
+import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -52,6 +53,8 @@ public class ForecastViewAdapter extends RecyclerView.Adapter<ForecastViewAdapte
         holder.textViewPrecipitation.setText(String.format("Precipitation: %d%%", forecast.getPrecipitationPercent()));
         holder.textViewWindSpeed.setText(String.format("Wind Speed: %s", forecast.getWindSpeed()));
         holder.textViewShortForecast.setText(forecast.getShortForecast());
+
+        Picasso.get().load(forecast.getWeatherIconURL()).into(holder.imageViewWeatherIcon);
     }
 
     @Override
