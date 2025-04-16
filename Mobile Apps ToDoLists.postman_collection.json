@@ -1,0 +1,314 @@
+{
+	"info": {
+		"_postman_id": "bfc5cbeb-ad03-4ac7-984e-0c62b6f74ad0",
+		"name": "Mobile Apps ToDoLists",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2842848"
+	},
+	"item": [
+		{
+			"name": "/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "a@a.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "test123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.theappsdr.com/api/login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "Zak",
+							"type": "text"
+						},
+						{
+							"key": "lname",
+							"value": "Smith",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "z@z.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "test123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.theappsdr.com/api/signup",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/todolists",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDQxMzk0OTksImV4cCI6MTc3NTY3NTQ5OSwianRpIjoiNTFHc2Q3RkFrekxRU2xYeUxwSEViYSIsInVzZXIiOjJ9.kMnbpCEseLcILUaWQ-8HDMAthOgHZtXv6Jmk_AGcd6Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.theappsdr.com/api/todolists",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"todolists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/todolists/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDQxMzk0OTksImV4cCI6MTc3NTY3NTQ5OSwianRpIjoiNTFHc2Q3RkFrekxRU2xYeUxwSEViYSIsInVzZXIiOjJ9.kMnbpCEseLcILUaWQ-8HDMAthOgHZtXv6Jmk_AGcd6Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Laundry",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.theappsdr.com/api/todolists/create",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"todolists",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/todolist-items/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDQxMzk0OTksImV4cCI6MTc3NTY3NTQ5OSwianRpIjoiNTFHc2Q3RkFrekxRU2xYeUxwSEViYSIsInVzZXIiOjJ9.kMnbpCEseLcILUaWQ-8HDMAthOgHZtXv6Jmk_AGcd6Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "todolist_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Tide",
+							"type": "text"
+						},
+						{
+							"key": "priority",
+							"value": "High",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.theappsdr.com/api/todolist-items/create",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"todolist-items",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/todolists/{todolist_id}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDQxMzk0OTksImV4cCI6MTc3NTY3NTQ5OSwianRpIjoiNTFHc2Q3RkFrekxRU2xYeUxwSEViYSIsInVzZXIiOjJ9.kMnbpCEseLcILUaWQ-8HDMAthOgHZtXv6Jmk_AGcd6Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.theappsdr.com/api/todolists/1",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"todolists",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/todolists/delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDQxMzk0OTksImV4cCI6MTc3NTY3NTQ5OSwianRpIjoiNTFHc2Q3RkFrekxRU2xYeUxwSEViYSIsInVzZXIiOjJ9.kMnbpCEseLcILUaWQ-8HDMAthOgHZtXv6Jmk_AGcd6Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "todolist_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.theappsdr.com/api/todolists/delete",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"todolists",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/todolist-items/delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "BEARER eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDQxMzk0OTksImV4cCI6MTc3NTY3NTQ5OSwianRpIjoiNTFHc2Q3RkFrekxRU2xYeUxwSEViYSIsInVzZXIiOjJ9.kMnbpCEseLcILUaWQ-8HDMAthOgHZtXv6Jmk_AGcd6Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "todolist_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "todolist_item_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.theappsdr.com/api/todolist-items/delete",
+					"protocol": "https",
+					"host": [
+						"www",
+						"theappsdr",
+						"com"
+					],
+					"path": [
+						"api",
+						"todolist-items",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
