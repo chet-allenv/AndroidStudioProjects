@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409624247178",
+    "project_id": "assignment-12-d60a5",
+    "storage_bucket": "assignment-12-d60a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409624247178:android:a0f793aaa0d41b8f87e673",
+        "android_client_info": {
+          "package_name": "edu.uncc.assignment11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBscPJ0mKA_q1hshDCFx12yFsaIVKHAu7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
