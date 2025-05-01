@@ -1,0 +1,234 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.assignment13"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:9:5-81
+11-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:10:5-79
+12-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:11:5-76
+13-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:11:22-73
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:12:5-67
+14-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:12:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:20:5-78
+15-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:20:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:22:5-24:33
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:23:8-40
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:24:8-31
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:27:5-30:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:29:7-61
+24-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:29:16-59
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.13.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\1fbaea32788a1f8105a009e19183a77e\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.assignment13.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.13.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\1fbaea32788a1f8105a009e19183a77e\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.13.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\1fbaea32788a1f8105a009e19183a77e\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.assignment13.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.13.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\1fbaea32788a1f8105a009e19183a77e\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.13.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\1fbaea32788a1f8105a009e19183a77e\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:5:5-27:19
+34        android:allowBackup="true"
+34-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:6:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.13.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\1fbaea32788a1f8105a009e19183a77e\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:7:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:8:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:9:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:10:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:11:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:12:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.Assignment13" >
+45-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:13:9-50
+46        <activity
+46-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:15:9-23:20
+47            android:name="com.example.assignment13.MainActivity"
+47-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:16:13-41
+48            android:exported="true" >
+48-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:17:13-36
+49            <intent-filter>
+49-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:18:13-22:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:19:17-69
+50-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:19:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:21:17-77
+52-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:21:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <meta-data
+57            android:name="com.google.android.geo.API_KEY"
+57-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:25:13-58
+58            android:value="AIzaSyAHk7Lme_03FtT5-wpIDtCxcfHRFcKUiFo" />
+58-->C:\Users\cheta\AndroidStudioProjects\Assignment13\app\src\main\AndroidManifest.xml:26:13-44
+59
+60        <activity
+60-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:15:9-21:20
+61            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+61-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:16:13-91
+62            android:exported="false"
+62-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:17:13-37
+63            android:label="@string/places_autocomplete_label"
+63-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:18:13-62
+64            android:theme="@style/PlacesAutocompleteOverlay"
+64-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:19:13-61
+65            android:windowSoftInputMode="adjustResize" >
+65-->[com.google.android.libraries.places:places:4.1.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\bc51ff206f09d0f118adb0cf4ab00f97\transformed\places-4.1.0\AndroidManifest.xml:20:13-55
+66        </activity>
+67
+68        <meta-data
+68-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\cheta\.gradle\caches\8.10.2\transforms\409d550897cfa8535892879622b1f42d\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:8:9-10:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\cheta\.gradle\caches\8.10.2\transforms\409d550897cfa8535892879622b1f42d\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:9:13-58
+70            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+70-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\cheta\.gradle\caches\8.10.2\transforms\409d550897cfa8535892879622b1f42d\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:10:13-66
+71        <uses-library
+71-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:33:7-86
+72            android:name="org.apache.http.legacy"
+72-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:33:21-58
+73            android:required="false" />
+73-->[com.google.android.gms:play-services-maps:19.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\44739a93ac29bfebf852a655fb127030\transformed\play-services-maps-19.2.0\AndroidManifest.xml:33:59-83
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\482621eb474d3abd006c1753e59c8c75\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\482621eb474d3abd006c1753e59c8c75\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\482621eb474d3abd006c1753e59c8c75\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\482621eb474d3abd006c1753e59c8c75\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\06d26cda61daeb01ebb565ec1819a952\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\06d26cda61daeb01ebb565ec1819a952\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+82            android:authorities="com.example.assignment13.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\06d26cda61daeb01ebb565ec1819a952\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\06d26cda61daeb01ebb565ec1819a952\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\06d26cda61daeb01ebb565ec1819a952\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\06d26cda61daeb01ebb565ec1819a952\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\06d26cda61daeb01ebb565ec1819a952\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\cheta\.gradle\caches\8.10.2\transforms\af1ffa297c6ab7e0eb035f7e85792ab4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\cheta\.gradle\caches\8.10.2\transforms\af1ffa297c6ab7e0eb035f7e85792ab4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\cheta\.gradle\caches\8.10.2\transforms\af1ffa297c6ab7e0eb035f7e85792ab4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+92                android:value="androidx.startup" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+93        </provider>
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\45dd1e637c18a35ed01017c6c60d9bb9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114
+115        <service
+115-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\6d79c595fe02e9351e5862c03eebd909\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
+116            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+116-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\6d79c595fe02e9351e5862c03eebd909\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
+117            android:exported="false" >
+117-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\6d79c595fe02e9351e5862c03eebd909\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
+118            <meta-data
+118-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\6d79c595fe02e9351e5862c03eebd909\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
+119                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+119-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\6d79c595fe02e9351e5862c03eebd909\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
+120                android:value="cct" />
+120-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\6d79c595fe02e9351e5862c03eebd909\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
+121        </service>
+122        <service
+122-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\83b4722efa80c6e1c889ea175eb8a783\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
+123            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+123-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\83b4722efa80c6e1c889ea175eb8a783\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
+124            android:exported="false"
+124-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\83b4722efa80c6e1c889ea175eb8a783\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" >
+125-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\83b4722efa80c6e1c889ea175eb8a783\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
+126        </service>
+127
+128        <receiver
+128-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\83b4722efa80c6e1c889ea175eb8a783\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
+129            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+129-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\83b4722efa80c6e1c889ea175eb8a783\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132
+130            android:exported="false" />
+130-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\cheta\.gradle\caches\8.10.2\transforms\83b4722efa80c6e1c889ea175eb8a783\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
+131    </application>
+132
+133</manifest>
